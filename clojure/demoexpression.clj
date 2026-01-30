@@ -1,3 +1,4 @@
+;; used commets to separate tasks
 ;; 10)
 
 (defn variable [name] (fn [listV] (get listV name)))
@@ -116,8 +117,6 @@
    'negate Negate
    'atan2 ArcTan2
    'atan ArcTan})
-
-;; NOTE парсер объектов почти не отличается от парсера функций – надо их объединить и избавиться от копипасты
 
 (defn parseItemBase [forNum forSymb itemsList]
       (
